@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AssisTeam</string>
+
+    <string name="button_name">Regístrate</string>
+    <string name="button_name1">Ya tengo cuenta</string>
+
+    <string name="title_activity_registro">Registro</string>
+    <string name="name_textView">AssisTeam</string>
+    <string name="name_dni">DNI</string>
+    <string name="name_textView1">Nombre</string>
+    <string name="name_textView2">Nº teléfono</string>
+    <string name="name_textView3">Contraseña</string>
+    <string name="name_editText">Nombre</string>
+    <string name="name_editText1">Teléfono</string>
+    <string name="name_editText2">Debe tener al menos 4 caracteres</string>
+    <string name="name_button">Continuar</string>
+    <string name="name_button1">Registrar historial clínico</string>
+
+    <string name="name_telefono">Nº de teléfono</string>
+    <string name="name_inicio">Inicio</string>
+    <string name="name_entrar">Entrar</string>
+
+    <string name="name_historialClinico">Historial clínico</string>
+    <string name="name_telefonoUser">Teléfono</string>
+    <string name="name_direccion">Dirección</string>
+    <string name="name_edad">Edad</string>
+    <string name="name_peso">Peso</string>
+    <string name="name_altura">Altura</string>
+    <string name="name_alergias">Alergias</string>
+    <string name="name_grupoSanguineo">Grupo sanguineo</string>
+    <string name="name_donanteDeOrganos">Donante de organos</string>
+    <string name="name_receptorDeOrganos">Receptor de organos</string>
+    <string name="name_medicacion">Medicación</string>
+    <string name="name_discapacidad">Discapacidad</string>
+    <string name="name_porcentajeMovilidad">Porcentaje de movilidad</string>
+    <string name="name_antecedentesMedicos">Antecedentes médicos</string>
+
+    <string name="name_localizacion">Activa tu localización</string>
+    <string name="name_contratarServicios">Contratar servicios</string>
+
+
+</resources>

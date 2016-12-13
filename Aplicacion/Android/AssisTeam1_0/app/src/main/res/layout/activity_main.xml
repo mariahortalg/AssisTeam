@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fenix.assisteam1_0.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/idMainActivityImageView"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:src="@drawable/assisteam"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <Button
+        android:id="@+id/idMainActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:layout_weight="0.13"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/idMainActivityButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name1"
+        android:layout_weight="0.13"
+        android:background="@android:color/background_light" />
+</LinearLayout>

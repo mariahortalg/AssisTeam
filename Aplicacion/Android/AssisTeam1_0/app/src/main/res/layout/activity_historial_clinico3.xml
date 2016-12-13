@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_historial_clinico3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fenix.assisteam1_0.HistorialClinico3"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/idInicioTextView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/name_historialClinico"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/idHistorialTextView1"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="@string/name_antecedentesMedicos"
+        android:textSize="30sp"
+        android:layout_below="@+id/idInicioTextView0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idHistorialTextView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp"
+        android:layout_weight="0.21" />
+
+    <Button
+        android:id="@+id/idHistorialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_button"
+        android:layout_marginBottom="34dp"
+        android:layout_marginTop="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.12" />
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_historial_clinico2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fenix.assisteam1_0.HistorialClinico2">
+
+    <TextView
+        android:id="@+id/idInicioTextView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/name_historialClinico"
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/idHistorialTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_grupoSanguineo"
+        android:textSize="30sp"
+        android:layout_below="@+id/idInicioTextView0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/idHistorialTextView1"
+        android:layout_toRightOf="@+id/idHistorialTextView1"
+        android:layout_toEndOf="@+id/idHistorialTextView1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+
+    <TextView
+        android:id="@+id/idHistorialTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_donanteDeOrganos"
+        android:textSize="30sp"
+        android:layout_below="@+id/idHistorialTextView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/idHistorialTextView2"
+        android:layout_toRightOf="@+id/idHistorialTextView2"
+        android:layout_toEndOf="@+id/idHistorialTextView2"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:id="@+id/idHistorialTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_receptorDeOrganos"
+        android:textSize="30sp"
+        android:layout_below="@+id/idHistorialEditText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/idHistorialTextView4"
+        android:layout_toRightOf="@+id/idHistorialTextView5"
+        android:layout_toEndOf="@+id/idHistorialTextView5" />
+
+    <TextView
+        android:id="@+id/idHistorialTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_discapacidad"
+        android:textSize="30sp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/idHistorialEditText4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/idHistorialTextView5"
+        android:layout_alignLeft="@+id/idHistorialEditText4"
+        android:layout_alignStart="@+id/idHistorialEditText4" />
+
+    <TextView
+        android:id="@+id/idHistorialTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_porcentajeMovilidad"
+        android:textSize="30sp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/idHistorialTextView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/idHistorialTextView5"
+        android:layout_alignEnd="@+id/idHistorialTextView5" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/idHistorialTextView6"
+        android:layout_alignLeft="@+id/idHistorialEditText5"
+        android:layout_alignStart="@+id/idHistorialEditText5" />
+
+    <EditText
+        android:id="@+id/idHistorialEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/idHistorialTextView3"
+        android:layout_alignLeft="@+id/idHistorialEditText2"
+        android:layout_alignStart="@+id/idHistorialEditText2" />
+
+    <Button
+        android:id="@+id/idHistorial2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/idHistorialTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_medicacion"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/idHistorialEditText3" />
+
+
+</RelativeLayout>
